@@ -1,0 +1,231 @@
+
+@media only screen and (max-width: 1200px){
+    #navbarNavAltMarkup{
+        margin-left: 60%;
+    }
+  
+}
+@media only screen and (max-width: 1100px){
+    #navbarNavAltMarkup{
+        margin-left: 55%;
+    }
+  
+}
+@media only screen and (max-width: 1000px){
+    #navbarNavAltMarkup{
+        margin-left: 50%;
+    }
+    .content .text-box h2{
+        font-size: 3em;
+    }
+    .content .text-box b{
+        color: #017143;
+        font-size: 1em;
+    }
+    .content .img-box{
+        width: 500px;
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+    .content .img-box img{
+        max-width: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+    #navbarNavAltMarkup{
+        margin-left: 50%;
+    }
+    .content .text-box h2{
+        font-size: 2.5em;
+    }
+    .content .text-box b{
+        color: #017143;
+        font-size: 1em;
+    }
+    .content .img-box{
+        width: 450px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .content .img-box img{
+        max-width: 200px;
+    }
+    .circle{
+        clip-path: circle(400px at right 600px);   
+}
+}
+
+@media only screen and (max-width: 550px){
+    #navbarNavAltMarkup{
+        margin-left: 30%;
+        text-align: center;
+    }
+    .content .text-box h2{
+        font-size: 2em;
+    }
+    .content .text-box b{
+        color: #017143;
+        font-size: 1em;
+    }
+    .content .img-box{
+        width: 450px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .content .img-box img{
+        max-width: 200px;
+    }
+    .circle{bottom: 0;
+        clip-path: circle(350px at right 600px);    
+    }
+    .social{
+        right: 20px;
+        
+    }
+}
+
+@media only screen and (max-width: 500px){
+   
+    #navbar img{
+        height: 40px;
+        width: 40px;
+    }
+    .content{
+    padding-top: 30px;
+   }
+    .content .text-box h2{
+        font-size: 1.6em;
+    }
+    .content .img-box{
+        width: 400px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .content .img-box img{
+        max-width: 160px;
+    }
+    .circle{bottom: 0;
+        clip-path: circle(350px at right 600px);    
+    }
+    .social{
+        right: 20px;
+        
+    }
+    .social li{
+        margin: 1px 0;
+        transform: scale(0.4);
+        filter: invert(0);
+    }
+    .thumb li img{
+        max-width: 50px;
+    }
+}
+
+@media only screen and (max-width: 445px){
+   
+    .content .text-box h2{
+        font-size: 1.6em;
+    }
+    .content .img-box{
+        width: 350px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .content .img-box img{
+        max-width: 120px;
+    }
+    .thumb li{
+        margin: 0 10px;
+    }
+    .circle{bottom: 0;
+        clip-path: circle(350px at right 600px);    
+    }
+    .social{
+        right: 0px;
+        
+    }
+    .social li{
+        margin: 0;
+        transform: scale(0.4);
+        filter: invert(0);
+    }
+    .content .text-box a{
+        padding: 4px 10px;
+        font-weight: 300;
+        color: #fff;
+        box-shadow: 1px 1px 4px grey;
+    }
+    
+}
+
+@media only screen and (max-width: 380px){
+   
+    .content .text-box h2{
+        font-size: 1.4em;
+    }
+    
+    .circle{bottom: 0;
+        clip-path: circle(250px at right 500px);    
+    }
+    
+}
+
+@media only screen and (max-width: 350px){
+   
+    .content .text-box h2{
+        font-size: 1em;
+    }
+    
+    .circle{
+        bottom: 0;
+        clip-path: circle(250px at right 500px);    
+    }
+    
+}
+
+@media only screen and (max-width: 300px){
+   
+    
+    
+    .content .img-box{
+        width: 300px;
+        padding-top: 10px;
+        padding-right: 5px;
+    }
+    .content .img-box img{
+        max-width: 100px;
+    }
+    .thumb li img{
+        max-width: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 250px){
+    .content .img-box{
+        width: 250px;
+    }
+    .content .img-box img{
+        max-width: 80px;
+    }
+    .thumb li img{
+        max-width: 30px;
+    }
+    .content .text-box a{
+        padding: 2px;
+        font-size: 12px;
+        border-radius: 40px;
+    }
+    .circle{
+        bottom: 0;
+        clip-path: circle(200px at right 440px);    
+    }
+ 
+    
+}
+
+
+
+

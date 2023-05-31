@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+    box-sizing: border-box;
+    /* font-family: cursive; */
+    transition: .4s;
+}
+
+/* *************************************  NAVBAR   **************************************** */
+
+#navbar{
+    width: 100%;
+    z-index: 333;
+    position: fixed;
+    background-color: white;
+}
+#navbar img{
+    height: 60px;
+    width: 60px;
+}
+#navbarNavAltMarkup{
+    margin-left: 65%;
+}
+#navbarNavAltMarkup a{
+    color: #017143;
+}
+#navbarNavAltMarkup a:hover{
+    color: #06f591;
+}
+#nav-btn{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* *************************************  HOME   **************************************** */
+
+.content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .text-box{
+    position: relative;
+    width: 600px;
+}
+.content .text-box h2{
+    font-size: 4em;
+}
+.content .text-box b{
+    color: #017143;
+    font-size: 1.2em;
+}
+.content .text-box a{
+    padding: 8px 20px;
+    font-weight: 500;
+    background-color: #017143;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.content .text-box a:hover{
+    background: #02aa64;
+}
+.content .img-box{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.content .img-box img{
+    max-width: 340px;
+}
+.thumb{
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+    display: flex;
+}
+.thumb li{
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 60px;
+}
+
+.social{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social li{
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
+
+
